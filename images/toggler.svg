@@ -6,5 +6,5 @@
       <stop offset="1" style="stop-color: rgba(15, 25, 16, 1)"/>
     </linearGradient>
   </defs>
-  <path stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" style="fill: url(#gradient-0); stroke: rgb(54, 88, 56);"/>
+  <path stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" style="fill: url(#gradient-0); stroke: rgb(192, 146, 30);"/>
 </svg>
