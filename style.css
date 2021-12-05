@@ -39,18 +39,23 @@ body {
 
 .author a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .author a:hover {
-  color: black;
+  color: #C0921E;
 }
 
 .author p {
   margin-top: 10px;
+  color: white;
 }
 
 .author-color:hover {
+  color: #C0921E !important;
+}
+
+.contact-underscore {
   color: #C0921E !important;
 }
 
@@ -95,13 +100,34 @@ body {
   margin: 20px;
   margin-bottom: 60px !important;
   color: white;
-  background: #886816;
+  background: #836217;
 }
 
 .pros-items .reverse {
   background: black;
-  color: #C0921E;
+  color: #a37e21;
   padding: 40px;
+}
+
+.blog-more {
+  text-decoration: underline;
+  color: white;
+}
+
+.blog-more:hover {
+  color: #C0921E;
+  cursor: pointer;
+}
+
+.partner img {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logo-contact {
+  height: auto;
+  width: 100%;
 }
 
 .pros-items .pros-item {
@@ -217,7 +243,7 @@ body {
 }
 
 .usługi {
-  max-width: 750px;
+  max-width: 1150px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
