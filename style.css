@@ -87,7 +87,16 @@ body {
   padding-right: 30px;
   top: 40%;
 }
-
+.number {
+  color: rgb(0, 0, 0);
+  position: fixed;
+  background: white;
+  padding: 5px;
+  text-align: center;
+  top: 90%;
+  opacity: 0.8;
+  z-index: 1000;
+}
 .pros-items {
   text-align: center;
   display: -webkit-box;
@@ -437,7 +446,10 @@ body {
     font-size: 17px;
   }
   .logo-upper {
-    height: 100px;
+    height: 90px;
+  }
+  .logo-upper-scroll {
+    height: 90px !important;
   }
   .carousel-item img {
     height: 70vh !important;
@@ -448,6 +460,9 @@ body {
   }
   .fixed-top {
     margin-bottom: -20px;
+  }
+  .navbar-brand {
+    width: 50% !important;
   }
 }
 
