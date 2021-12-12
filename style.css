@@ -93,7 +93,8 @@ body {
   background: white;
   padding: 5px;
   text-align: center;
-  top: 90%;
+  top: 82%;
+  display: none;
   opacity: 0.8;
   z-index: 1000;
 }
@@ -463,6 +464,9 @@ body {
   }
   .navbar-brand {
     width: 50% !important;
+  }
+  .number {
+    display: block;
   }
 }
 
