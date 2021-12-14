@@ -2,7 +2,7 @@ let nav = document.querySelector('nav');
 let logo = document.getElementById('navbar-logo');
 
 window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 100) {
+    if (window.pageYOffset > 20) {
         nav.classList.add('bg-black');
         logo.classList.add('logo-upper-scroll');
     } else {
